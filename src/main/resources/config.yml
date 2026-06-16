@@ -1,0 +1,19 @@
+# MintHolders Config 
+# Placeholderları başka bir dile çevirmeye yarar.
+#
+# Format:
+# cevirme_adi: (%mintholders_cevirmeadi% placeholdera isim verir.)
+#   source: "kaynak_placeholder" (Hangi placeholderın kullanılacağı yazılır.) 
+#   values:
+#     "deger1": "Gosterilecek Metin" 
+#     "deger2": "Gosterilecek Metin"
+#   error: "Hata Mesaji"
+#
+# Kullanım: %mintholders_cevirme_adi%
+
+ototopla:
+  source: "autopickup_autoenabled"
+  values:
+    "§cDisabled": "&a✔"
+    "§aEnabled": "&4✘"
+  error: "Bir sorun yaşandı!"ss
